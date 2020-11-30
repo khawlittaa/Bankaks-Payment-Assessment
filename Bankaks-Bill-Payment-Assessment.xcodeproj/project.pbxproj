@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		6E3E98362573BDE0008462A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3E98352573BDE0008462A3 /* AppDelegate.swift */; };
 		6E3E98382573BDE0008462A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3E98372573BDE0008462A3 /* SceneDelegate.swift */; };
-		6E3E983A2573BDE0008462A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3E98392573BDE0008462A3 /* ViewController.swift */; };
+		6E3E983A2573BDE0008462A3 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3E98392573BDE0008462A3 /* ServicesViewController.swift */; };
 		6E3E983D2573BDE0008462A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3E983B2573BDE0008462A3 /* Main.storyboard */; };
 		6E3E983F2573BDE4008462A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E3E983E2573BDE4008462A3 /* Assets.xcassets */; };
 		6E3E98422573BDE4008462A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3E98402573BDE4008462A3 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		6E3E98322573BDE0008462A3 /* Bankaks-Bill-Payment-Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bankaks-Bill-Payment-Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E3E98352573BDE0008462A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E3E98372573BDE0008462A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6E3E98392573BDE0008462A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E3E98392573BDE0008462A3 /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
 		6E3E983C2573BDE0008462A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E3E983E2573BDE4008462A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E3E98412573BDE4008462A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,13 +58,53 @@
 			children = (
 				6E3E98352573BDE0008462A3 /* AppDelegate.swift */,
 				6E3E98372573BDE0008462A3 /* SceneDelegate.swift */,
-				6E3E98392573BDE0008462A3 /* ViewController.swift */,
+				6E3E984E2573D72F008462A3 /* Helpers */,
+				6E3E984D2573D6F4008462A3 /* Controllers */,
+				6E3E984C2573D6EB008462A3 /* ViewModels */,
+				6E3E984B2573D6E4008462A3 /* Views */,
+				6E3E984A2573D6DB008462A3 /* Models */,
+				6E3E98402573BDE4008462A3 /* LaunchScreen.storyboard */,
 				6E3E983B2573BDE0008462A3 /* Main.storyboard */,
 				6E3E983E2573BDE4008462A3 /* Assets.xcassets */,
-				6E3E98402573BDE4008462A3 /* LaunchScreen.storyboard */,
 				6E3E98432573BDE4008462A3 /* Info.plist */,
 			);
 			path = "Bankaks-Bill-Payment-Assessment";
+			sourceTree = "<group>";
+		};
+		6E3E984A2573D6DB008462A3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6E3E984B2573D6E4008462A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6E3E984C2573D6EB008462A3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6E3E984D2573D6F4008462A3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6E3E98392573BDE0008462A3 /* ServicesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6E3E984E2573D72F008462A3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E3E983A2573BDE0008462A3 /* ViewController.swift in Sources */,
+				6E3E983A2573BDE0008462A3 /* ServicesViewController.swift in Sources */,
 				6E3E98362573BDE0008462A3 /* AppDelegate.swift in Sources */,
 				6E3E98382573BDE0008462A3 /* SceneDelegate.swift in Sources */,
 			);
