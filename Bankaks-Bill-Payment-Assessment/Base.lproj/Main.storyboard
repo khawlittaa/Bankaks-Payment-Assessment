@@ -20,7 +20,7 @@
                         </textAttributes>
                     </navigationBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="TB4-7M-Mwy"/>
+                        <segue destination="xBV-X6-kji" kind="relationship" relationship="rootViewController" id="45X-vW-ckd"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QmZ-KI-nvx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -28,33 +28,35 @@
             <point key="canvasLocation" x="-880" y="72"/>
         </scene>
         <!--Services-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="LKU-Xw-Yjn">
             <objects>
-                <viewController storyboardIdentifier="ServicesVC" id="BYZ-38-t0r" customClass="ServicesViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="xBV-X6-kji" customClass="ServicesViewController" customModule="Bankaks_Bill_Payment_Assessment" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="62x-If-F5k">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="a7m-CZ-BHU">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="e6e-jU-eRI">
+                                <rect key="frame" x="0.0" y="98" width="414" height="764"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="5hY-DO-NXj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <color key="tintColor" red="0.05483737187136032" green="0.39545263425268307" blue="0.10911533547390201" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="a7m-CZ-BHU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="PGd-f2-faQ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a7m-CZ-BHU" secondAttribute="trailing" id="Sdp-dD-rQR"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="a7m-CZ-BHU" secondAttribute="bottom" id="uFw-CO-aK0"/>
-                            <constraint firstItem="a7m-CZ-BHU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ytJ-JW-xsX"/>
+                            <constraint firstItem="5hY-DO-NXj" firstAttribute="trailing" secondItem="e6e-jU-eRI" secondAttribute="trailing" id="URc-FS-3nj"/>
+                            <constraint firstItem="5hY-DO-NXj" firstAttribute="bottom" secondItem="e6e-jU-eRI" secondAttribute="bottom" id="j5V-gz-V0Z"/>
+                            <constraint firstItem="e6e-jU-eRI" firstAttribute="top" secondItem="5hY-DO-NXj" secondAttribute="top" constant="10" id="n0h-fK-sQB"/>
+                            <constraint firstItem="e6e-jU-eRI" firstAttribute="leading" secondItem="5hY-DO-NXj" secondAttribute="leading" id="va8-dx-dTR"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Services" id="gLY-DM-u9v"/>
+                    <navigationItem key="navigationItem" title="Services" id="mOM-5L-MkS"/>
+                    <connections>
+                        <outlet property="servicesTableView" destination="e6e-jU-eRI" id="aNu-vU-33P"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GtD-oH-rKd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-25" y="72"/>
+            <point key="canvasLocation" x="57" y="72"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.074164147030000002" green="0.53482518050000005" blue="0.14757172900000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

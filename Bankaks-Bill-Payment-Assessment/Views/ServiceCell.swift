@@ -9,15 +9,19 @@ import UIKit
 
 class ServiceCell: UITableViewCell {
 
+    @IBOutlet weak var serviceNameLabel: UILabel!
+    @IBOutlet weak var serviceIconImageView: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    }
+    
+    func SetUpUI(service: Service){
+        serviceNameLabel.text = service.serviceName
     }
     
 }
