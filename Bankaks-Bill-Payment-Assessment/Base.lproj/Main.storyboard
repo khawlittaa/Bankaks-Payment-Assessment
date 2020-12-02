@@ -65,13 +65,43 @@
                     <view key="view" contentMode="scaleToFill" id="Fm4-MT-IrI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Hyb-mu-EPb">
+                                <rect key="frame" x="0.0" y="54" width="414" height="688"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zwF-79-Ka9">
+                                <rect key="frame" x="80" y="762" width="254" height="40"/>
+                                <color key="backgroundColor" red="0.038066111454347365" green="0.73725490196078436" blue="0.078431372549019607" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="LAw-LU-yI7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="17"/>
+                                <state key="normal" title="Proceed">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="h3r-R5-zux"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zwF-79-Ka9" firstAttribute="top" secondItem="Hyb-mu-EPb" secondAttribute="bottom" constant="20" id="38n-78-lFg"/>
+                            <constraint firstItem="zwF-79-Ka9" firstAttribute="centerX" secondItem="Fm4-MT-IrI" secondAttribute="centerX" id="3XM-TL-Shq"/>
+                            <constraint firstItem="h3r-R5-zux" firstAttribute="bottom" secondItem="zwF-79-Ka9" secondAttribute="bottom" constant="60" id="9aF-Ii-do5"/>
+                            <constraint firstItem="Hyb-mu-EPb" firstAttribute="top" secondItem="h3r-R5-zux" secondAttribute="top" constant="10" id="eAG-pe-kFP"/>
+                            <constraint firstItem="zwF-79-Ka9" firstAttribute="leading" secondItem="h3r-R5-zux" secondAttribute="leading" constant="80" id="edM-Uq-nPk"/>
+                            <constraint firstItem="Hyb-mu-EPb" firstAttribute="leading" secondItem="h3r-R5-zux" secondAttribute="leading" id="s7a-X5-coN"/>
+                            <constraint firstItem="h3r-R5-zux" firstAttribute="trailing" secondItem="Hyb-mu-EPb" secondAttribute="trailing" id="xZa-Pk-0DF"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="billTableView" destination="Hyb-mu-EPb" id="fUT-2J-jhk"/>
+                        <outlet property="proceedButton" destination="zwF-79-Ka9" id="MUQ-SU-lFi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uv0-IP-8OQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="829" y="72"/>
+            <point key="canvasLocation" x="828.98550724637687" y="71.651785714285708"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.074164147030000002" green="0.53482518050000005" blue="0.14757172900000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

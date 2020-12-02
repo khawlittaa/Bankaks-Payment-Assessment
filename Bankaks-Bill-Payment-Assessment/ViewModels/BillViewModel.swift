@@ -31,6 +31,12 @@ class BillViewModel{
         }
     }
     
+    // TO Do: Validation on the fields 
+    
+//    lazy var validatedData  =   Publishers.CombineLatest($value1, $value2)
+//        .map {isValid($0) && isValid($1) }
+//        .eraseToAnyPublisher()
+    
     func getBillInfo() {
         self.task = ApiBillClient.getBillInformation(billID: billId)
             .receive(on: DispatchQueue.main)

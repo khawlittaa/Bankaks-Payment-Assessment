@@ -44,7 +44,7 @@ extension ServicesViewController: UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let bill = getVCfromStoryboard(storyboard: "Main", VCIdentifier: "BillVC") as! BillViewController
-        bill.BillVM.billId = servicesVM.services[indexPath.row].serviceId
+        bill.billVM.billId = servicesVM.services[indexPath.row].serviceId
         self.navigationController?.pushViewController(bill, animated: false)
     }
 }
