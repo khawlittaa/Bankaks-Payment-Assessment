@@ -22,6 +22,19 @@
 		6E57E67725765CC5006CEAC7 /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E57E67625765CC5006CEAC7 /* TableViewExtension.swift */; };
 		6E57E67E25765F78006CEAC7 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E57E67D25765F78006CEAC7 /* ServicesViewController.swift */; };
 		6E57E68225766110006CEAC7 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E57E68125766110006CEAC7 /* Service.swift */; };
+		6E57E68525766511006CEAC7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E57E68425766511006CEAC7 /* Constants.swift */; };
+		6E57E6892576652A006CEAC7 /* BaseRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E57E6882576652A006CEAC7 /* BaseRequestProtocol.swift */; };
+		6E57E68C2576653A006CEAC7 /* NetworkPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E57E68B2576653A006CEAC7 /* NetworkPublisher.swift */; };
+		6E57E69325766676006CEAC7 /* ApiBillClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E57E69225766676006CEAC7 /* ApiBillClient.swift */; };
+		6E57E69A25766688006CEAC7 /* ApiBillRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E57E69925766688006CEAC7 /* ApiBillRouter.swift */; };
+		6E57E69E257666E0006CEAC7 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E57E69D257666E0006CEAC7 /* Bill.swift */; };
+		6E57E6A625766BB0006CEAC7 /* BillField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E57E6A525766BB0006CEAC7 /* BillField.swift */; };
+		6E57E6A925766D28006CEAC7 /* FieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E57E6A825766D28006CEAC7 /* FieldType.swift */; };
+		6E57E6AC25766D3F006CEAC7 /* FieldUIType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E57E6AB25766D3F006CEAC7 /* FieldUIType.swift */; };
+		6E57E6AF25766DE5006CEAC7 /* DropDownValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E57E6AE25766DE5006CEAC7 /* DropDownValue.swift */; };
+		6E57E6B225766FDD006CEAC7 /* BillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E57E6B125766FDD006CEAC7 /* BillViewController.swift */; };
+		6E57E6B525767C57006CEAC7 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E57E6B425767C57006CEAC7 /* UIViewControllerExtension.swift */; };
+		6E57E6BC25767F18006CEAC7 /* DataRespond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E57E6BB25767F18006CEAC7 /* DataRespond.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +54,19 @@
 		6E57E67625765CC5006CEAC7 /* TableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
 		6E57E67D25765F78006CEAC7 /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
 		6E57E68125766110006CEAC7 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		6E57E68425766511006CEAC7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6E57E6882576652A006CEAC7 /* BaseRequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequestProtocol.swift; sourceTree = "<group>"; };
+		6E57E68B2576653A006CEAC7 /* NetworkPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPublisher.swift; sourceTree = "<group>"; };
+		6E57E69225766676006CEAC7 /* ApiBillClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiBillClient.swift; sourceTree = "<group>"; };
+		6E57E69925766688006CEAC7 /* ApiBillRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiBillRouter.swift; sourceTree = "<group>"; };
+		6E57E69D257666E0006CEAC7 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		6E57E6A525766BB0006CEAC7 /* BillField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillField.swift; sourceTree = "<group>"; };
+		6E57E6A825766D28006CEAC7 /* FieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldType.swift; sourceTree = "<group>"; };
+		6E57E6AB25766D3F006CEAC7 /* FieldUIType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldUIType.swift; sourceTree = "<group>"; };
+		6E57E6AE25766DE5006CEAC7 /* DropDownValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownValue.swift; sourceTree = "<group>"; };
+		6E57E6B125766FDD006CEAC7 /* BillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillViewController.swift; sourceTree = "<group>"; };
+		6E57E6B425767C57006CEAC7 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		6E57E6BB25767F18006CEAC7 /* DataRespond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRespond.swift; sourceTree = "<group>"; };
 		87126C6A5EF420DE0281263A /* Pods-Bankaks-Bill-Payment-Assessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bankaks-Bill-Payment-Assessment.debug.xcconfig"; path = "Target Support Files/Pods-Bankaks-Bill-Payment-Assessment/Pods-Bankaks-Bill-Payment-Assessment.debug.xcconfig"; sourceTree = "<group>"; };
 		D96ADF203549660632B14EF0 /* Pods-Bankaks-Bill-Payment-Assessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bankaks-Bill-Payment-Assessment.release.xcconfig"; path = "Target Support Files/Pods-Bankaks-Bill-Payment-Assessment/Pods-Bankaks-Bill-Payment-Assessment.release.xcconfig"; sourceTree = "<group>"; };
 		F59D29EF7FC53D9D25BF77F1 /* Pods_Bankaks_Bill_Payment_Assessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bankaks_Bill_Payment_Assessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,10 +125,10 @@
 				6E3E98352573BDE0008462A3 /* AppDelegate.swift */,
 				6E3E98372573BDE0008462A3 /* SceneDelegate.swift */,
 				6E57E67525765CA1006CEAC7 /* Extensions */,
-				6E3E984E2573D72F008462A3 /* Helpers */,
 				6E3E984D2573D6F4008462A3 /* Controllers */,
 				6E3E984C2573D6EB008462A3 /* ViewModels */,
 				6E3E984B2573D6E4008462A3 /* Views */,
+				6E3E984E2573D72F008462A3 /* API */,
 				6E3E984A2573D6DB008462A3 /* Models */,
 				6E3E98402573BDE4008462A3 /* LaunchScreen.storyboard */,
 				6E3E983B2573BDE0008462A3 /* Main.storyboard */,
@@ -116,6 +142,12 @@
 			isa = PBXGroup;
 			children = (
 				6E57E68125766110006CEAC7 /* Service.swift */,
+				6E57E69D257666E0006CEAC7 /* Bill.swift */,
+				6E57E6A525766BB0006CEAC7 /* BillField.swift */,
+				6E57E6A825766D28006CEAC7 /* FieldType.swift */,
+				6E57E6AB25766D3F006CEAC7 /* FieldUIType.swift */,
+				6E57E6AE25766DE5006CEAC7 /* DropDownValue.swift */,
+				6E57E6BB25767F18006CEAC7 /* DataRespond.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -144,23 +176,38 @@
 			isa = PBXGroup;
 			children = (
 				6E57E67D25765F78006CEAC7 /* ServicesViewController.swift */,
+				6E57E6B125766FDD006CEAC7 /* BillViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		6E3E984E2573D72F008462A3 /* Helpers */ = {
+		6E3E984E2573D72F008462A3 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				6E57E69C2576668B006CEAC7 /* BillPayment */,
+				6E57E68425766511006CEAC7 /* Constants.swift */,
+				6E57E6882576652A006CEAC7 /* BaseRequestProtocol.swift */,
+				6E57E68B2576653A006CEAC7 /* NetworkPublisher.swift */,
 			);
-			path = Helpers;
+			path = API;
 			sourceTree = "<group>";
 		};
 		6E57E67525765CA1006CEAC7 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				6E57E67625765CC5006CEAC7 /* TableViewExtension.swift */,
+				6E57E6B425767C57006CEAC7 /* UIViewControllerExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6E57E69C2576668B006CEAC7 /* BillPayment */ = {
+			isa = PBXGroup;
+			children = (
+				6E57E69925766688006CEAC7 /* ApiBillRouter.swift */,
+				6E57E69225766676006CEAC7 /* ApiBillClient.swift */,
+			);
+			path = BillPayment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,13 +326,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E57E69325766676006CEAC7 /* ApiBillClient.swift in Sources */,
+				6E57E6A625766BB0006CEAC7 /* BillField.swift in Sources */,
+				6E57E69E257666E0006CEAC7 /* Bill.swift in Sources */,
+				6E57E6892576652A006CEAC7 /* BaseRequestProtocol.swift in Sources */,
+				6E57E6AC25766D3F006CEAC7 /* FieldUIType.swift in Sources */,
 				6E3E985225758CA9008462A3 /* ServiceCell.swift in Sources */,
 				6E57E65A2576576F006CEAC7 /* ServicesViewModel.swift in Sources */,
+				6E57E69A25766688006CEAC7 /* ApiBillRouter.swift in Sources */,
 				6E57E67725765CC5006CEAC7 /* TableViewExtension.swift in Sources */,
 				6E3E98362573BDE0008462A3 /* AppDelegate.swift in Sources */,
+				6E57E6A925766D28006CEAC7 /* FieldType.swift in Sources */,
+				6E57E6AF25766DE5006CEAC7 /* DropDownValue.swift in Sources */,
+				6E57E68C2576653A006CEAC7 /* NetworkPublisher.swift in Sources */,
 				6E3E98382573BDE0008462A3 /* SceneDelegate.swift in Sources */,
+				6E57E68525766511006CEAC7 /* Constants.swift in Sources */,
 				6E57E68225766110006CEAC7 /* Service.swift in Sources */,
+				6E57E6B525767C57006CEAC7 /* UIViewControllerExtension.swift in Sources */,
 				6E57E67E25765F78006CEAC7 /* ServicesViewController.swift in Sources */,
+				6E57E6B225766FDD006CEAC7 /* BillViewController.swift in Sources */,
+				6E57E6BC25767F18006CEAC7 /* DataRespond.swift in Sources */,
 				6E57E65D25765793006CEAC7 /* BillViewModel.swift in Sources */,
 				6E3E985725758F59008462A3 /* InputTextCell.swift in Sources */,
 			);

@@ -23,8 +23,6 @@ class ServicesViewController: UIViewController {
         servicesTableView.delegate = self
         servicesTableView.registerCell(nib: "ServiceCell", cellreuseIdentifier: "ServiceCell")
     }
-
-
 }
 
 extension ServicesViewController: UITableViewDataSource{
@@ -42,5 +40,11 @@ extension ServicesViewController: UITableViewDataSource{
 extension ServicesViewController: UITableViewDelegate{
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 80
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let bill = getVCfromStoryboard(storyboard: "Main", VCIdentifier: "BillVC") as! BillViewController
+        bill.BillVM.billId = servicesVM.services[indexPath.row].serviceId
+        self.navigationController?.pushViewController(bill, animated: false)
     }
 }

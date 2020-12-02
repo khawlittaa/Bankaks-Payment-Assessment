@@ -8,10 +8,12 @@
 import Foundation
 
 class Service{
-    var serviceName = ""
-    var serviceIconeURI = ""
+    var serviceId: Int
+    var serviceName: String = ""
+    var serviceIconeURI: String = ""
     
-    init(serviceName: String, serviceIconeURI: String = "") {
+    init(serviceID: Int,serviceName: String, serviceIconeURI: String = "") {
+        self.serviceId = serviceID
         self.serviceName = serviceName
         self.serviceIconeURI = serviceIconeURI
     }
